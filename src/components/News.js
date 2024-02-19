@@ -85,7 +85,7 @@ const News = (props) => {
             <h2 className='text-center' id='not'>NewSExpress - Top {capitalize(props.category)} Headlines</h2>
             {loading && <Spinner />}
             <InfiniteScroll
-                dataLength={articles.length}
+                dataLength={100}
                 next={fetchMoreData}
                 hasMore={totalResults && articles.length !== totalResults}
                 loader={<Spinner />}>
