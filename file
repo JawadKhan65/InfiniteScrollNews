@@ -1,0 +1,10 @@
+<Route path="/about" element = {<News mode={this.state.mode} toggleMode={this.toggleMode} country="in" category="technology"}/>
+<Route path="/business" element = {<News mode={this.state.mode} toggleMode={this.toggleMode} country="in" category="technology"}/>
+<Route path="/entertainment" element = {<News mode={this.state.mode} toggleMode={this.toggleMode} country="in" category="technology"}/>
+<Route path="/general" element = {<News mode={this.state.mode} toggleMode={this.toggleMode} country="in" category="technology"}/>
+<Route path="/health" element = {<News mode={this.state.mode} toggleMode={this.toggleMode} country="in" category="technology"}/>
+<Route path="/science" element = {<News mode={this.state.mode} toggleMode={this.toggleMode} country="in" category="technology"}/>
+<Route path="/sports" element = {<News mode={this.state.mode} toggleMode={this.toggleMode} country="in" category="technology"}/>
+
+
+<Route path="/technology" element = {<News mode={this.state.mode} toggleMode={this.toggleMode} country="in" category="technology"}/>
